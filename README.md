@@ -1,5 +1,5 @@
 
-# TurtleBot 2
+# Turtlesim
 
 Turtlesim is a tool made for teaching ROS and ROS packages.
 
@@ -11,6 +11,6 @@ roscore
 
 
 ## To install and start the turtlesim:
-$ sudo apt-get install ros-$(rosversion -d)-turtlesim
+sudo apt-get install ros-noetic-turtlesim
 ## Run turtlesim:
-$ rosrun turtlesim turtlesim_node
+rosrun turtlesim turtlesim_node
