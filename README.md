@@ -17,7 +17,7 @@ rosrun turtlesim turtlesim_node
 
 ## Steady State Error
 
-Steady state error is calculated by applying derivative to the error signal.
+Steady state error is calculated by applying derivative to error signal.
 
 When only P controller is used, error is simply multiplied with Kp (gain). Kp is obtained by tuning.
 
