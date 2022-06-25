@@ -37,6 +37,8 @@ int main(int argc, char** argv) {
     goal_pose.theta=0;
     moveToGoal(goal_pose, 0.01);
 
+    cout << "Hello Turtle Bot" << endl;
+
     ros::spin();
     return 0;
 }
